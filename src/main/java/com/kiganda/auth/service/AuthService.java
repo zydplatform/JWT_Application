@@ -17,6 +17,7 @@ public class AuthService {
     private JwtUtil jwtUtil;
 
     public AuthService() {
+        
         // Sample users
         users.put("user1", "password1");
         users.put("user2", "password2");
